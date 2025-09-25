@@ -4,10 +4,10 @@ Stored Procedure : Load Silver Layer ( Bronze -> Silver )
 ==============================================================
 
 Purpose : 
-	This stored procedure loads data into the 'silver' schema from bronze 'schema'.
+	This stored procedure loads data into the 'silver' schema from 'bronze' schema.
 	It performs the following actions:
 		- Truncates the silver tables before loading data.
-		- Uses transformations to clean, normalize, standardise, enrich data.
+		- Uses transformations to clean, normalize, standardise, enrich data before loading the data.
 
 Parameters :
 	None.
